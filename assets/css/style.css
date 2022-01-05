@@ -295,6 +295,8 @@ footer{
         padding: 0;
     }
 
+    
+
     hr{
         display:none;
     }
@@ -337,7 +339,20 @@ footer{
         padding: 0 20px;
     }
 
+    #photos 
+    
+    {
+        column-count: 3;
+    }
 
 
+
+}
+
+@media screen and (max-width:800px){
+
+    #photos{
+        column-count: 2;
+    }
 }
 
